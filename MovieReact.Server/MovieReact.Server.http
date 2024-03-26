@@ -1,0 +1,11 @@
+@MovieReact.Server_HostAddress = http://localhost:5108
+
+GET {{MovieReact.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MovieReact.Server_HostAddress}}/movie/
+Accept: application/json
+
+###
